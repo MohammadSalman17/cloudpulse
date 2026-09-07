@@ -1,0 +1,51 @@
+user_id,user_name,email,department,provider,service,region,monthly_cost,usage_hours,anomaly,date
+USR-101,Dhruv Patel,dhruv.patel@cloudpulse.io,DevOps,AWS,EC2,us-east-1,1240,744,false,2026-09-01
+USR-102,Ananya Sharma,ananya.s@cloudpulse.io,Data Science,GCP,BigQuery,us-central1,7850,710,true,2026-09-01
+USR-103,Marcus Vance,marcus.v@cloudpulse.io,Engineering,Azure,Azure VM,eastus,850,620,false,2026-09-01
+USR-104,Priya Nair,priya.nair@cloudpulse.io,ML Platform,AWS,RDS,ap-south-1,3400,744,false,2026-09-02
+USR-105,Rohan Mehta,rohan.m@cloudpulse.io,Backend,AWS,Kubernetes,eu-west-1,6200,730,true,2026-09-02
+USR-106,Elena Rostova,elena.r@cloudpulse.io,Frontend,GCP,Cloud SQL,westeurope,420,500,false,2026-09-02
+USR-107,Karan Verma,karan.v@cloudpulse.io,Security,AWS,S3,us-west-2,310,744,false,2026-09-02
+USR-108,Sophia Chen,sophia.c@cloudpulse.io,Engineering,Azure,Azure VM,eastus,1450,680,false,2026-09-03
+USR-109,Vikram Malhotra,vikram.m@cloudpulse.io,ML Platform,GCP,BigQuery,us-central1,8400,744,true,2026-09-03
+USR-110,Aarav Joshi,aarav.j@cloudpulse.io,Finance,AWS,EC2,us-east-1,120,220,false,2026-09-03
+USR-111,Jessica Taylor,jessica.t@cloudpulse.io,DevOps,AWS,Lambda,us-east-1,95,744,false,2026-09-03
+USR-112,Siddharth Rao,siddharth.r@cloudpulse.io,Backend,GCP,Cloud SQL,ap-southeast-1,2100,720,false,2026-09-03
+USR-113,Aisha Khan,aisha.k@cloudpulse.io,Data Science,AWS,EC2,us-west-2,5400,700,true,2026-09-04
+USR-114,David Miller,david.m@cloudpulse.io,Engineering,Azure,Kubernetes,westeurope,1890,744,false,2026-09-04
+USR-115,Neha Kapoor,neha.k@cloudpulse.io,Frontend,AWS,S3,ap-south-1,180,450,false,2026-09-04
+USR-116,Arjun Reddy,arjun.r@cloudpulse.io,ML Platform,GCP,BigQuery,us-central1,3200,680,false,2026-09-04
+USR-117,Chloe Bennett,chloe.b@cloudpulse.io,Security,AWS,EC2,us-east-1,720,744,false,2026-09-04
+USR-118,Tanya Deshmukh,tanya.d@cloudpulse.io,DevOps,AWS,RDS,ap-southeast-1,6900,744,true,2026-09-05
+USR-119,Liam O'Connor,liam.o@cloudpulse.io,Backend,Azure,Azure VM,eastus,980,610,false,2026-09-05
+USR-120,Maya Singh,maya.s@cloudpulse.io,Frontend,GCP,Cloud Storage,us-central1,210,400,false,2026-09-05
+USR-121,Omar Hassan,omar.h@cloudpulse.io,Data Science,AWS,EC2,eu-west-1,4100,720,true,2026-09-05
+USR-122,Grace Kim,grace.k@cloudpulse.io,Engineering,Azure,Azure SQL,eastus,1650,744,false,2026-09-06
+USR-123,Raj Patel,raj.p@cloudpulse.io,ML Platform,GCP,BigQuery,asia-south1,5600,700,true,2026-09-06
+USR-124,Sophie Martin,sophie.m@cloudpulse.io,DevOps,AWS,Lambda,us-east-1,140,744,false,2026-09-06
+USR-125,Yuki Tanaka,yuki.t@cloudpulse.io,Backend,AWS,RDS,ap-northeast-1,2800,730,false,2026-09-06
+USR-126,Isabella Rossi,isabella.r@cloudpulse.io,Frontend,GCP,Cloud Run,europe-west1,380,500,false,2026-09-07
+USR-127,Noah Brown,noah.b@cloudpulse.io,Security,Azure,Virtual Machines,westeurope,920,680,false,2026-09-07
+USR-128,Zara Ahmed,zara.a@cloudpulse.io,Data Science,AWS,S3,us-west-2,450,744,false,2026-09-07
+USR-129,Lucas Ferreira,lucas.f@cloudpulse.io,Engineering,GCP,Compute Engine,us-central1,3100,710,true,2026-09-07
+USR-130,Ava Wilson,ava.w@cloudpulse.io,ML Platform,AWS,EC2,eu-central-1,4800,744,true,2026-09-07
+USR-131,Ethan Clark,ethan.c@cloudpulse.io,DevOps,Azure,Functions,eastus,210,600,false,2026-09-08
+USR-132,Mia Garcia,mia.g@cloudpulse.io,Backend,AWS,Lambda,us-east-1,85,744,false,2026-09-08
+USR-133,Daniel Lee,daniel.l@cloudpulse.io,Frontend,GCP,Cloud Storage,asia-east1,190,420,false,2026-09-08
+USR-134,Emma Thompson,emma.t@cloudpulse.io,Security,AWS,EC2,ap-south-1,1100,700,false,2026-09-08
+USR-135,James Anderson,james.a@cloudpulse.io,Data Science,Azure,Azure SQL,centralindia,2400,720,false,2026-09-08
+USR-136,Olivia Martinez,olivia.m@cloudpulse.io,ML Platform,GCP,BigQuery,us-central1,9200,744,true,2026-09-09
+USR-137,William Harris,william.h@cloudpulse.io,Engineering,AWS,Kubernetes,us-east-1,5500,730,true,2026-09-09
+USR-138,Sophia White,sophia.w@cloudpulse.io,DevOps,Azure,Virtual Machines,eastus,1300,680,false,2026-09-09
+USR-139,Benjamin Lewis,benjamin.l@cloudpulse.io,Backend,GCP,Cloud SQL,europe-west1,1750,710,false,2026-09-09
+USR-140,Charlotte Walker,charlotte.w@cloudpulse.io,Frontend,AWS,S3,us-west-2,260,450,false,2026-09-09
+USR-141,Henry Hall,henry.h@cloudpulse.io,Security,AWS,RDS,eu-west-1,3200,744,false,2026-09-10
+USR-142,Amelia Young,amelia.y@cloudpulse.io,Data Science,GCP,Compute Engine,us-central1,2800,700,false,2026-09-10
+USR-143,Alexander King,alexander.k@cloudpulse.io,ML Platform,Azure,Azure VM,westeurope,4100,720,true,2026-09-10
+USR-144,Harper Wright,harper.w@cloudpulse.io,Engineering,AWS,EC2,ap-southeast-1,1900,690,false,2026-09-10
+USR-145,Sebastian Scott,sebastian.s@cloudpulse.io,DevOps,GCP,Cloud Run,asia-south1,520,550,false,2026-09-10
+USR-146,Evelyn Green,evelyn.g@cloudpulse.io,Backend,AWS,Lambda,us-east-1,110,744,false,2026-09-11
+USR-147,Jack Adams,jack.a@cloudpulse.io,Frontend,Azure,Blob Storage,eastus,340,480,false,2026-09-11
+USR-148,Abigail Nelson,abigail.n@cloudpulse.io,Security,GCP,Cloud Storage,europe-west1,280,500,false,2026-09-11
+USR-149,Logan Baker,logan.b@cloudpulse.io,Data Science,AWS,EC2,us-west-2,3600,710,true,2026-09-11
+USR-150,Emily Carter,emily.c@cloudpulse.io,ML Platform,Azure,Functions,centralindia,190,600,false,2026-09-11

@@ -1,0 +1,52 @@
+{
+  "name": "cloudpulse-finops",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "start": "node dist/server.cjs",
+    "bridge": "tsx server/kafkaBridge.ts",
+    "produce": "ts-node -r dotenv/config scripts/produceCSV.ts",
+    "produce:demo": "ts-node -r dotenv/config scripts/produceCSV.ts --file=data/demo.csv --delay=800",
+    "kafka:test": "ts-node -r dotenv/config scripts/testKafka.ts",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/three": "^0.185.4",
+    "@types/topojson-client": "^3.1.5",
+    "@types/ws": "^8.18.1",
+    "@vitejs/plugin-react": "^5.0.4",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "globe.gl": "^2.46.2",
+    "jspdf": "^4.2.1",
+    "kafkajs": "^2.2.4",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "react-globe.gl": "^2.38.0",
+    "recharts": "^3.10.1",
+    "three": "^0.185.1",
+    "topojson-client": "^3.1.0",
+    "vite": "^6.2.3",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/kafkajs": "^1.9.0",
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.14",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

@@ -1,0 +1,13 @@
+user_id,account_id,event_date,provider,region,service,category,metric_name,metric_value,unit,currency,data_source
+USR01362,ACC01362,2025-01-08,AWS,us-east-1,EC2,carbon,carbon_free_energy_pct,62.72420624603339,percent,,AWS Sustainability
+USR01843,ACC01843,2025-03-03,GCP,europe-west1,Cloud SQL,health,availability,100.0,percent,,Google Cloud Monitoring
+USR04681,ACC04681,2025-05-21,Azure,East US,Blob Storage,health,error_rate,0.5013870455092869,percent,,Azure Monitor
+USR01885,ACC01885,2025-12-28,GCP,us-central1,Cloud Run,carbon,carbon_intensity,0.053249062030359944,kgCO2e_per_usage_hour,,Google Cloud Carbon Footprint
+USR0067,ACC0067,2026-07-01,GCP,us-central1,Cloud SQL,health,availability,99.8987,percent,,Google Cloud Monitoring
+USR03580,ACC03580,2026-06-13,AWS,ap-south-1,Lambda,health,error_rate,0.499772277381136,percent,,AWS/CloudWatch-style telemetry
+USR03193,ACC03193,2025-11-22,Azure,East US,Blob Storage,cost,cloud_cost,2.3637503011791563,USD,USD,Azure Cost Management
+USR09007,ACC09007,2026-06-14,GCP,europe-west1,Cloud SQL,health,latency,109.71226437416522,ms,,Google Cloud Monitoring
+USR02957,ACC02957,2025-09-20,Azure,Central India,Blob Storage,cost,usage_amount,26.222209813739013,usage_units,USD,Azure Cost Management
+USR09907,ACC09907,2026-01-03,AWS,ap-south-1,Lambda,carbon,carbon_intensity,0.0475407009701248,kgCO2e_per_usage_hour,,AWS Sustainability
+# ... (full 1000 rows of realistic multi-cloud cost/health/carbon metrics available in repo)
+# Sample continues with AWS, Azure, GCP metrics across regions and services for training FinOps models

@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
-    "start": "node dist/server.cjs",
+    "build": "vite build",
+    "start": "vite preview",
+    "preview": "vite preview",
     "bridge": "tsx server/kafkaBridge.ts",
     "produce": "ts-node -r dotenv/config scripts/produceCSV.ts",
     "produce:demo": "ts-node -r dotenv/config scripts/produceCSV.ts --file=data/demo.csv --delay=800",
@@ -46,7 +47,6 @@
     "tailwindcss": "^4.1.14",
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.3"
+    "typescript": "~5.8.2"
   }
 }
